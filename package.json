@@ -1,0 +1,34 @@
+{
+  "name": "bmctool",
+  "version": "1.0.0",
+  "description": "code generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ofix/bmctool.git"
+  },
+  "author": "ofix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ofix/bmctool/issues"
+  },
+  "homepage": "https://github.com/ofix/bmctool#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/register": "^7.9.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-electron": "^1.4.15",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^3.5.2",
+    "electron": "^8.2.1",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
